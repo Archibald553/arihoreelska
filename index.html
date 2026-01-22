@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>LearnWeb</title>
+    <title>Ariho reelska</title>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,25 +30,13 @@
             HTML
           </a>
           <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item dropdown" href="#html">HTML</a></li>
-            <li><a class="dropdown-item dropdown" href="#htmlznacka">Značky</a></li>
-            <li><a class="dropdown-item dropdown" href="#htmlseznam">Seznamy a obrázky</a></li>
-            <li><a class="dropdown-item dropdown" href="#htmltabulky">Tabulky</a></li>
-            <li><a class="dropdown-item dropdown" href="#htmlstruktura">Struktura stránky</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle menutext" href="#css" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            CSS
-          </a>
-          <ul class="dropdown-menu menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item dropdown" href="#css">CSS</a></li>
-            <li><a class="dropdown-item dropdown" href="#csskom">Komponenty</a></li>
-            <li><a class="dropdown-item dropdown" href="#csstr">Třídy</a></li>
+            <li><a class="dropdown-item dropdown" href="#html">Zábava</a></li>
+            <li><a class="dropdown-item dropdown" href="#htmlznacka">Už tě nebaví prokrastinovat?</a></li>
+            <li><a class="dropdown-item dropdown" href="#htmlseznam">Scrolování pro každého</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link menu" href="#javascript">JavaScript</a>
+          <a class="nav-link menu" href="#javascript">Spravování médií</a>
         </li>
         <li class="nav-item">
           <a class="nav-link menu" href='#galerie'>Galerie</a>
@@ -59,161 +47,98 @@
 </nav>
 <section id="hero" class="hero-section">
   <div class="hero-content container text-center">
-    <h1>Learn Web</h1>
-    <p>Objev svět webového programování. Nauč se HTML, CSS a JavaScript krok za krokem.</p>
+    <h1>Ariho reelska</h1>
+    <p>Objev svět podnikání, zábavy a nikdy nekončícího scrolování. Zaplať si naši prémiovou službu.</p>
     <a href="#uvod" class="btn btn-primary btn-lg">Začít</a>
   </div>
 </section>
 
     <!-- Sekce: Úvod -->
     <section id="uvod" class="container py-5">
-        <h1>Vítej ve světě webového programování!</h1>
-        <p>Neboj se, programování není žádná černá magie – je to spíš jako skládání kostek nebo malování obrázků,
-          jen pomocí kódu. Tento web ti ukáže základy tří hlavních jazyků, 
-          které tvoří moderní web: <strong>HTML, CSS a JavaScript.</strong></p>
-      <p><strong>HTML je kostra tvého webu</strong> – určuje, co na stránce bude. 
-        <strong>CSS je styl a design</strong> – barvy, fonty, rozložení. 
-        A <strong>JavaScript dodává stránce život</strong> – interaktivitu a dynamiku. 
-        Společně tvoří neporazitelný tým, který ti umožní vytvářet vlastní weby
-        od základů až po jednoduché interaktivní aplikace. 
-        Tento web tě provede krok za krokem, aby ses v těchto základech rychle
-        zorientoval a začal tvořit.</p>
+        <h1>Vítej ve světě mých prémiových služeb!</h1>
+        <p>
+    Pomáhám značkám i tvůrcům <strong>růst na sociálních sítích </strong>pomocí kvalitních,
+    strategicky vybraných reels. Zaměřuji se na obsah, který zaujme,
+    buduje <strong>rdůvěru</strong>r a přináší skutečné výsledky.
+  </p>
+  <p>
+    Nabízím prémiovou službu <strong>pravidelného posílání reels</strong>, díky které ušetříš čas
+    a získáš náskok před konkurencí. Ty se soustřeď na své podnikání,
+    o obsah se postarám já.
+  </p>
+  <p>
+    Podnikání a práce obecně ti vlastně moc nevoní? Nevadí naši prémiovou službu využívá i spousta znuděných zákazníků na celém světě. 
+    Zdělte nám své preference zábavy a o <strong>zbytek se už postaráme sami.</strong>
+  </p>
         <div style="text-align: center;">
-          <img class="img-fluid" src="https://vimcolors.com/wp-content/uploads/2023/12/The-Difference-Between-HTML-CSS-and-JavaScript-12.jpeg" alt="Web v kostce: HTML, CSS, JS">
+          <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9aUrq0pr81klvmzGrMxCY55LKROGCU2G_Q&s" alt="Boží reels na dosah ruky">
         </div>    
   </section>
   <section id='html', class='container py-5'>
-    <h1>HTML jako kostra webu</h1>
-    <p>HTML je <strong>značkovací jazyk</strong>, který určuje strukturu webové stránky. 
-     Každý prvek stránky je zapsán pomocí značky (tagu), kterou si můžeme představit jako obal – 
-      například <code>&lt;div&gt;</code>
-    je jako malá krabička, do které můžeme vložit obsah. <em>Stejně fungují i ostatní značky
-      – každá má svůj účel a společně tvoří kostru stránky.</em></p>
-    <h3 id="htmlznacka">Značky</h3>
-    <p>
-    Jak už jsme si řekli, HTML stránky se skládají ze <strong>značek</strong>, což jsou vlastně takové
-      obaly, do kterých vkládáme obsah. Například <code>&lt;p&gt;</code> 
-      slouží k označení <em>odstavce textu</em>, takže text uvnitř tohoto obalu bude 
-      považován za paragraf. Další běžné značky jsou <code>&lt;h1&gt;</code> až 
-      <code>&lt;h6&gt;</code> pro nadpisy, <code>&lt;img&gt;</code> pro obrázky, 
-      nebo <code>&lt;div&gt;</code>, což je univerzální obal pro bloky obsahu. 
-      Každá značka má svůj účel, ale všechny fungují podobně – obalují a strukturalizují 
-      obsah stránky.
+    <h1>Zábava</h1>
+    <p>Chceš dát svému volnému času smysl a zažít nějakou opravdovou zábavu? Zároveň, ale nerad vstáváš z postele a cestování tě tak trochu děsí? To není lenost,
+      <strong>to je příležitost.</strong> Ano čteš správně, <strong>PŘÍLEŽITOST</strong> pro to trávit svůj volný čas jinak než všichni ti primitivové všechny ty generace dozadu.
+      Už se nemusíme mlátit v jeskyni klackem po hlavě, místo toho můžeme sledovat AI generovaná reelska toho, jak se mlátí po hlavě někdo jiný. No není moderní doba super?
     </p>
-    <h3 id="htmlseznam">Seznamy a obrázky</h3>
+    <h3 id="htmlznacka">Už tě nebaví prokrastinovat?</h3>
     <p>
-    Pro tvorbu seznamů používáme značky <code>&lt;ul&gt;</code> (nečíslovaný seznam) a <code>&lt;ol&gt;</code> (číslovaný seznam), přičemž jednotlivé položky seznamu jsou uvnitř <code>&lt;li&gt;</code> tagu. Například:
-    </p>
-    <pre>
-    &lt;ul&gt;
-      &lt;li&gt;První položka&lt;/li&gt;
-      &lt;li&gt;Druhá položka&lt;/li&gt;
-      &lt;li&gt;Třetí položka&lt;/li&gt;
-    &lt;/ul&gt;
-    </pre>
-    <p>
-    Pro obrázky používáme samouzavírací značku <code>&lt;img&gt;</code>. Hlavní atributy jsou <code>src</code> (cesta k obrázku) a <code>alt</code> (popis obrázku). Příklad:
-    </p>
-    <pre>
-    &lt;img src="obrazek.jpg" alt="Popis obrázku"&gt;
-    </pre>
+    Moc pracuješ? Jsi unavený? Mozek jede na nouzový režim a ty si říkáš,
+    že by sis dal pauzu… ale vlastně ani nevíš jak? Kdy jsi naposledy
+    prokrastinoval opravdu poctivě, bez výčitek a bez scrollování nudy?
+  </p>
 
-    <h3 id="htmltabulky">Tabulky</h3>
-    <p>
-    Pro tabulky se používají značky <code>&lt;table&gt;</code> (celá tabulka), <code>&lt;tr&gt;</code> (řádek), <code>&lt;th&gt;</code> (hlavička sloupce) a <code>&lt;td&gt;</code> (buňka dat). Například:
-    </p>
-    <pre>
-    &lt;table&gt;
-      &lt;tr&gt;
-        &lt;th&gt;Jméno&lt;/th&gt;
-        &lt;th&gt;Věk&lt;/th&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Alice&lt;/td&gt;
-        &lt;td&gt;25&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Bob&lt;/td&gt;
-        &lt;td&gt;30&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/table&gt;
-    </pre>
+  <p>
+    Prokrastinace nemusí být chaos. Může to být řízený zážitek.
+    Krátká dávka dopaminu, chytrý humor, inspirace a reels,
+    které tě vtáhnou přesně na těch pár minut, kdy si „jen odskočíš“
+    od práce… a najednou se vracíš s lepší náladou.
+  </p>
 
-    <h3 id="htmlstruktura">Struktura stránky</h3>
+  <p>
+    Nabízím prémiové zasílání reels – ručně vybraných, zábavných
+    a návykově dobrých. Udělej z prokrastinace znovu svou
+    oblíbenou formu odpočinku. Bez hledání. Bez algoritmu.
+    Jen čistá, kvalitní ztráta času.
+  </p>
+    <h3 id="htmlseznam">Scrolování pro každého</h3>
     <p>
-    Každá HTML stránka má základní strukturu rozdělenou na <code>&lt;head&gt;</code> a <code>&lt;body&gt;</code>. 
-    V <code>&lt;head&gt;</code> se nachází informace o stránce, jako je název, meta tagy nebo odkazy na styly.Celkově se tady nachází část kterou uživatel nevidí.
-    <code>&lt;body&gt;</code> naopak obsahuje vše, co se zobrazuje uživateli – texty, obrázky, seznamy, tabulky a další obsah. 
-    Správné oddělení těchto částí pomáhá udržet stránku přehlednou a funkční.
-    </p>
+    Scrolování není zlo. Scrolování je dovednost. Každý začínal někde –
+    nejistý pohyb palce, špatné načasování, omylem otevřený profil tety
+    z dovolené. Ale i palce se dají trénovat.
+  </p>
+
+  <p>
+    Díky pravidelnému scrolování se zlepšuje koordinace, výdrž
+    a schopnost rozpoznat kvalitní obsah během zlomku vteřiny.
+    Naše reelsky ti dodají ideální tréninkový materiál – správné tempo,
+    přesná délka a obsah, který tě nenechá odložit telefon dřív,
+    než by bylo zdrávo.
+  </p>
+
+  <p>
+    Se zasíláním našich reels se z tebe postupně stane mistr scrolování.
+    Palec jede automaticky, hlava odpočívá a ty přesně víš,
+    kdy zpomalit, kdy zrychlit a kdy si dát ještě jedno video.
+    Scrolování pro každého. Scrolování na úrovni.
+  </p>
      <div style="text-align: center;">
-          <img class="img-fluid" src="https://www.tutorialspoint.com/html/images/html_basic_tags.jpg" alt="Web v kostce: HTML, CSS, JS">
+          <img class="img-fluid" src="https://p16-seeyou-useast5.capcutcdn-us.com/tos-useast5-i-2zwwjm3azk-tx/badee84c74fa40b1b7ad851b210582c0~tplv-2zwwjm3azk-image.image" alt="Scrollování na dosah ruky, aneb nový smysl života.">
         </div>    
   </section>
-   <section id="css" class="container py-5">
-    <h1>CSS – styl a design webu</h1>
-    <p>
-        Abychom si lépe představili, jak funguje design webu, můžeme si to přirovnat
-        ke stavbě domu. <strong>HTML prvky</strong> jako <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>,
-        <code>&lt;div&gt;</code> jsou jako jednotlivé části stavby – stěny, místnosti nebo okna.
-        <strong>CSS třídy</strong> jako <code>.mujstyl</code> jsou naopak „výzdoba“ a vzhled:
-        určují barvy, velikosti, zarovnání a celkový styl. HTML tedy tvoří strukturu
-        a CSS určuje, jak bude stránka vypadat.
-    </p>
-
-    <h3 id="csskom">Komponenty (HTML prvky)</h3>
-    <p>
-        HTML prvky jako <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code> nebo <code>&lt;ul&gt;</code>
-        se používají k označení významu obsahu. Říká se tomu <strong>sémantika</strong>.
-        Například <code>&lt;h1&gt;</code> je hlavní nadpis stránky, <code>&lt;p&gt;</code> představuje odstavec
-        textu a <code>&lt;h2&gt;</code> až <code>&lt;h6&gt;</code> označují podnadpisy různých úrovní.
-        Tyto značky mají svou přirozenou stylovou váhu – například nadpisy jsou větší než odstavce.
-        Pokud má stránka současně přiřazený CSS styl, platí, že <strong>CSS má přednost</strong> před
-        výchozím (defaultním) vzhledem prvků, ale sémantický význam HTML zůstává.
-    </p>
-
-    <h3 id="csstr">Třídy (CSS classes)</h3>
-    <p>
-        <strong>Třídy</strong> jsou způsob, jak dát prvkům vlastní vzhled. V HTML se přidávají pomocí
-        atributu <code>class=""</code> a v CSS se zapisují tečkou, například <code>.mujstyl</code>.
-        Díky třídám můžeme měnit barvy, velikosti, rozložení i mezery kolem prvků.
-        Mezi základní CSS vlastnosti patří:
-    </p>
-
-    <ul>
-        <li><code>color</code> – barva textu</li>
-        <li><code>background-color</code> – barva pozadí</li>
-        <li><code>font-size</code> – velikost textu</li>
-        <li><code>margin</code> – vnější odsazení (mezera kolem prvku)</li>
-        <li><code>padding</code> – vnitřní odsazení (mezera uvnitř prvku)</li>
-        <li><code>border</code> – okraj prvku</li>
-        <li><code>text-align</code> – zarovnání textu</li>
-    </ul>
-
-    <p>
-        Třídy jsou velmi flexibilní – stejný styl můžeš použít na více prvcích najednou, což pomáhá
-        udržet web konzistentní, přehledný a snadno upravitelný. Díky tomu máme nad vzhledem webu
-        úplnou kontrolu.
-    </p>
-    <div style="text-align: center;">
-          <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPx-o-z54GKXy4IHqOsB0lXReI-m1sRTgDsQ&s" alt="Web v kostce: HTML, CSS, JS">
-        </div>  
-</section>
 <section id="javascript" class="container py-5">
-    <h1>JavaScript – život a interaktivita webu</h1>
+    <h1>Spravování sociálních médií, aneb nový smysl pro tvé podnikání</h1>
     <p>
-        Zatímco HTML tvoří strukturu stránky a CSS její vzhled, <strong>JavaScript</strong> přidává
-        webu život a umožňuje mu reagovat na uživatele. JavaScript dokáže měnit obsah stránky,
-        ovládat prvky, reagovat na kliknutí, zobrazovat animace nebo pracovat s daty.
-        Můžeme si ho představit jako mozek celé stránky – rozhoduje, co se má stát a kdy.
+        Soustředíme se také na služby pro podnikatele a výběr reelsek na jejich sociální sítě a to tak, aby zaujali a pobavili potenciální zákazníky.
+        U čtenářů tohoto webu, ale podnikání primárně nepředpokládáme (v případě zájmu nás kontaktujte, ale to se asi nestane co?). Užijte si proto místo naší nabýtky tento náhodný text o koťátkách:
+    </p>
+    <p>
+      Koťátka jsou malí profesionálové na chaos v roztomilém balení – dokážou usnout
+      uprostřed skoku, pronásledovat vlastní ocas s naprostou vážností a během pěti
+      vteřin proměnit klidný pokoj v tréninkovou dráhu Formule 1. Jejich svět se točí
+      kolem teplých míst, záhadných šustivých objektů a neviditelných nepřátel, které je
+      nutné ve tři ráno hlasitě zahnat, aby byl vesmír opět v rovnováze.
     </p>
 
-    <p>
-        JavaScript pracuje s takzvaným <strong>DOMem</strong>, což je vnitřní reprezentace HTML,
-        kterou si prohlížeč vytváří. Díky tomu může měnit text, obrázky, barvy, skrývat prvky
-        nebo otevírat menu. I jednoduché skripty dokážou udělat web výrazně interaktivnější,
-        a většina moderních webů jeho funkce využívá každý den.
-    </p>
 </section>
 
 <!-- Sekce s galerií-->
@@ -222,43 +147,28 @@
       <p>Tato galerie slouží <strong>hlavně pro ukázku.</strong> Můžeš tu, ale najít graficky znázorněné koncepty, které se týkají webového programování a to od barevné palety až po architekturu webu.</p>
     <div class="row g-3">  <!-- g-3 = mezery mezi řádky i sloupci -->
         <div class="col-6 col-md-4 col-lg-3">
-          <a href="https://rostecky.cz/wp-content/uploads/2015/08/informacni-architektura-webu.png" data-fancybox="galerie" data-caption="Architektura webu">
-            <img class="img-fluid" src="https://rostecky.cz/wp-content/uploads/2015/08/informacni-architektura-webu.png" alt="Obrázek">
+          <a href="https://www.belabel.cz/motivy/big/1668_picture.png" data-fancybox="galerie" data-caption="Meme 1">
+            <img class="img-fluid" src="https://www.belabel.cz/motivy/big/1668_picture.png" alt="Obrázek">
           </a>
          </div>
         <div class="col-6 col-md-4 col-lg-3">
-          <a href="https://thumbs.dreamstime.com/b/html-css-js-icon-set-web-development-logo-javascript-programming-symbol-171669655.jpg" data-fancybox="galerie" data-caption="HTML, CSS, JS ikony">
-            <img class="img-fluid" src="https://thumbs.dreamstime.com/b/html-css-js-icon-set-web-development-logo-javascript-programming-symbol-171669655.jpg" alt="Obrázek">
+          <a href="https://storage.googleapis.com/pod_public/1300/200776.jpg" data-fancybox="galerie" data-caption="Tento web je v pořádku">
+            <img class="img-fluid" src="https://storage.googleapis.com/pod_public/1300/200776.jpg" alt="Obrázek">
           </a>        
       </div>
         <div class="col-6 col-md-4 col-lg-3">
-           <a href="https://assets.htmlgoodies.com/uploads/2021/04/stylingblocks.png" data-fancybox="galerie" data-caption="HTML structure diagram">
-            <img class="img-fluid" src="https://assets.htmlgoodies.com/uploads/2021/04/stylingblocks.png" alt="Obrázek">
+           <a href="https://img.freepik.com/free-vector/simple-vibing-cat-square-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80" data-fancybox="galerie" data-caption="Buď jako tahle kočka">
+            <img class="img-fluid" src="https://img.freepik.com/free-vector/simple-vibing-cat-square-meme_742173-4493.jpg?semt=ais_hybrid&w=740&q=80" alt="Obrázek">
           </a>       
       </div>
         <div class="col-6 col-md-4 col-lg-3">
-            <a href="https://public-images.interaction-design.org/literature/articles/materials/uoFDqppYNyhkKBWMb2Rp8JBG1UZs3tR2nvg8IfKi.jpg" data-fancybox="galerie" data-caption="Responzivní desing">
-            <img class="img-fluid" src="https://public-images.interaction-design.org/literature/articles/materials/uoFDqppYNyhkKBWMb2Rp8JBG1UZs3tR2nvg8IfKi.jpg" alt="Obrázek">
+            <a href="https://www.sunitka.cz/system/pictures/861/medium/love588f.jpg?1383050425" data-fancybox="galerie" data-caption="Přátelství je nade vše">
+            <img class="img-fluid" src="https://www.sunitka.cz/system/pictures/861/medium/love588f.jpg?1383050425" alt="Obrázek">
           </a>        
       </div>
        <div class="col-6 col-md-4 col-lg-3">
-            <a href="https://torquemag.io/wp-content/uploads/2020/01/css-flexbox-schematic-1024x424.jpg" data-fancybox="galerie" data-caption="Změna rozložení u HTML 5">
-            <img class="img-fluid" src="https://torquemag.io/wp-content/uploads/2020/01/css-flexbox-schematic-1024x424.jpg" alt="Obrázek">
-          </a>        
-      </div>
-       <div class="col-6 col-md-4 col-lg-3">
-            <a href="https://ic.pics.livejournal.com/dotnetinter/32561056/120275/120275_original.png" data-fancybox="galerie" data-caption="Barevná paleta">
-            <img class="img-fluid" src="https://ic.pics.livejournal.com/dotnetinter/32561056/120275/120275_original.png" alt="Obrázek">
-          </a>        
-      </div>
-       <div class="col-6 col-md-4 col-lg-3">
-            <a href="https://www.milesweb.ae/blog/wp-content/uploads/2025/01/what-is-a-color-palette.png" data-fancybox="galerie" data-caption="Návrh webu">
-            <img class="img-fluid" src="https://www.milesweb.ae/blog/wp-content/uploads/2025/01/what-is-a-color-palette.png" alt="Obrázek">
-          </a>        
-      </div>
-       <div class="col-6 col-md-4 col-lg-3">
-            <a href="https://static.vecteezy.com/system/resources/previews/055/052/204/non_2x/website-sketch-hand-drawn-wireframe-ui-ux-nuttins-mockup-of-web-page-layout-ui-elements-and-buttons-ux-wireframed-design-prototype-isolated-set-vector.jpg" data-fancybox="galerie" data-caption="HTML, CSS, JS ikony">
-            <img class="img-fluid" src="https://static.vecteezy.com/system/resources/previews/055/052/204/non_2x/website-sketch-hand-drawn-wireframe-ui-ux-nuttins-mockup-of-web-page-layout-ui-elements-and-buttons-ux-wireframed-design-prototype-isolated-set-vector.jpg" alt="Obrázek">
+            <a href="https://www.mememaker.ai/images/meme_cat.png" data-fancybox="galerie" data-caption="Jsme si vědomi kvality našich služeb">
+            <img class="img-fluid" src="https://www.mememaker.ai/images/meme_cat.png" alt="Obrázek">
           </a>        
       </div>
 
