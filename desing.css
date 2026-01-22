@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+section,
+image{
+    background-color: rgb(255, 248, 212);
+}
+body{
+    background-color: rgb(241, 240, 233);
+}
+p,h1,h3{
+    color: rgb(67, 86, 99);
+}
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+section {
+    margin-bottom: 50px;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h3[id] {
+    scroll-margin-top: 90px; 
+}
+code,pre{
+    color:rgb(136, 185, 31);
+}
+.menu{
+    color: rgb(49, 54, 71);
+    background-color: rgb(163, 176, 135);
+    border-color:rgb(163, 176, 135);
+    margin: 0;
+    padding: 5px;
+    border-radius: 15px;
+}
+.menutext{
+    color: rgb(49, 54, 71);
+    background-color: rgb(163, 176, 135);
+    border-color:rgb(163, 176, 135);
+    margin: 0;
+    padding: 5px;
+}
+.nadpis {
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+    color: rgb(49, 54, 71);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover,
+.dropdown:visited,
+.dropdown:active {
+    background-color: rgb(255, 248, 212); 
+    color: rgb(49, 54, 71);
+}
+.block {
+    margin-bottom: 30px; 
+}
+
+
+
+
+
+.hero-section {
+    background: linear-gradient(135deg, #c9d4b1, #f5f5e6);
+    padding: 80px 20px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #313647;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    color: #435663;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-content .btn-primary {
+    background-color: #313647;
+    color: rgb(255, 248, 212);
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .btn-primary:hover {
+    background-color: #4a5061;
+}
+
+
+
+
